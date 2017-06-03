@@ -4,3 +4,6 @@
 [submodule "awesome/awesome-selfhosted"]
 	path = awesome/awesome-selfhosted
 	url = https://github.com/Kickball/awesome-selfhosted
+[submodule "awesome/awesome-doc/linuxtools_rst"]
+	path = awesome/awesome-doc/linuxtools_rst
+	url = https://github.com/me115/linuxtools_rst
