@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-source lib/common_function.sh
+source lib/devstack/common_function.sh
 
 
 #set screenshot
