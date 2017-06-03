@@ -1,0 +1,7 @@
+Fix some reST field lists in docstrings
+
+Probably the most common format for documenting arguments is reST field
+lists [1]. This change updates some docstrings to comply with the field
+lists syntax.
+
+[1] http://sphinx-doc.org/domains.html#info-field-lists
