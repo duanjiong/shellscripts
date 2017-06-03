@@ -16,7 +16,7 @@
 - [freedesktop](https://planet.freedesktop.org/)
 - [virt](http://planet.virt-tools.org/)
 
-##openstack
+## openstack
 - [openstack](http://planet.openstack.org/)
 
 ## Reference
