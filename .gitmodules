@@ -1,0 +1,3 @@
+[submodule "devstack"]
+	path = devstack
+	url = https://github.com/openstack-dev/devstack
