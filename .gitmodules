@@ -1,3 +1,6 @@
 [submodule "lib/devstack"]
 	path = lib/devstack
 	url = https://github.com/openstack-dev/devstack
+[submodule "awesome/awesome-selfhosted"]
+	path = awesome/awesome-selfhosted
+	url = https://github.com/Kickball/awesome-selfhosted
