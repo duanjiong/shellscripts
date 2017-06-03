@@ -7,3 +7,6 @@
 [submodule "awesome/awesome-doc/linuxtools_rst"]
 	path = awesome/awesome-doc/linuxtools_rst
 	url = https://github.com/me115/linuxtools_rst
+[submodule "conf/service/natapp/natapp_autostart"]
+	path = conf/service/natapp/natapp_autostart
+	url = https://github.com/natapp/natapp_autostart

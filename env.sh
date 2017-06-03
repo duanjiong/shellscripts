@@ -1,0 +1,1 @@
+LOCAL_BIN_PATH=/usr/local/bin
