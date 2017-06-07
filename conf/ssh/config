@@ -1,0 +1,12 @@
+ControlMaster auto
+ ControlPath /tmp/ssh_mux_%h_%p_%r
+
+UserKnownHostsFile /dev/null
+StrictHostKeyChecking no
+
+ServerAliveInterval 30
+
+Host vagrant
+    HostName 192.168.26.72
+    User root
+    ProxyCommand corkscrew jumper 3128 %h %p

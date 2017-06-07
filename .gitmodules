@@ -10,3 +10,6 @@
 [submodule "conf/service/natapp/natapp_autostart"]
 	path = conf/service/natapp/natapp_autostart
 	url = https://github.com/natapp/natapp_autostart
+[submodule "lib/networking-ovs-dpdk"]
+	path = lib/networking-ovs-dpdk
+	url = https://github.com/openstack/networking-ovs-dpdk
