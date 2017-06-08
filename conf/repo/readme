@@ -1,0 +1,10 @@
+centos 软件源管理
+https://wiki.centos.org/zh/AdditionalResources/Repositories
+
+
+国内mirror
+http://mirrors.163.com/.help/centos.html
+
+
+Centos_source.rep
+存放srpm包的地方
