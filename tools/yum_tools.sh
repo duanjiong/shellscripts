@@ -43,3 +43,20 @@ show_configfile() {
 download_srpm() {
     yumdownloader --source redis
 }
+
+#使用本地源安装
+install_local(){
+    yum localinstall openvswitch
+}
+
+
+install_to_dir(){
+    yum -c /etc/yum.conf –installroot=/root/dev/test –releasever=/ -y install coreutils
+}
+
+
+#查询依赖关系
+#https://linux.cn/article-3621-1.html
+repoquery --requires --resolve openvswitch
+rpm -qpR tcpdump-4.4.0-2.fc19.i686.rpm
+rpm -qR tcpdump
