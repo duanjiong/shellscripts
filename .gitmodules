@@ -13,3 +13,6 @@
 [submodule "lib/networking-ovs-dpdk"]
 	path = lib/networking-ovs-dpdk
 	url = https://github.com/openstack/networking-ovs-dpdk
+[submodule "tools/sshrc"]
+	path = tools/sshrc
+	url = https://github.com/Russell91/sshrc

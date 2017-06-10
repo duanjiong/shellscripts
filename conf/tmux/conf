@@ -1,0 +1,50 @@
+#快捷键
+#https://gist.github.com/ryerh/14b7c24dfd623ef8edc7
+
+
+#支持鼠标
+#支持鼠标之后，复制粘贴会失效，这时可以按住shift按键来用鼠标复制粘贴
+set -g mouse on
+
+#滚动
+set -g terminal-overrides 'xterm*:smcup@:rmcup@'
+
+#切换窗口后名字会改回来，这里就需要更改配置文件了
+set-option -g allow-rename off
+
+
+############################
+#C-b c 创建一个新窗口
+#C-b & 关闭当前窗口
+#C-b p 切换到上一个窗口
+#C-b n 切换到下一个窗口
+
+#新建标签页
+#prefix + c
+
+#下一个标签页
+#prefix + n
+
+#上一个标签页
+#prefix + p
+
+#rename窗口
+#prefix + 逗号
+
+#切换窗口
+#C-b + 数字
+
+#切换pane
+#C-b q  然后再按显示的数字
+
+
+#复制粘贴（像vim一样，不是在系统剪贴板）
+setw -g mode-keys vi
+
+#prefix + [ 进入复制模式
+#按空格开始复制
+#按回车结束复制
+#prefix + ]粘贴
+
+#http://blog.csdn.net/yangzhongxuan/article/details/6890232
+#http://www.cnblogs.com/bamanzi/p/tmux-mouse-tips.html
