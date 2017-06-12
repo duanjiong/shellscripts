@@ -1,0 +1,10 @@
+开机启动服务
+
+
+https://www.linuxbabe.com/linux-server/how-to-enable-etcrc-local-with-systemd
+
+
+chmod +x /etc/rc.local
+systemctl enable rc-local
+systemctl start rc-local.service
+systemctl status rc-local.service
