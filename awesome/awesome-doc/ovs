@@ -1,0 +1,9 @@
+ovs-appctl fdb/show br-int
+
+ovs-ofctl dump-flows brex
+
+查看/设置bridge的datapath类型
+
+ovs-vsctl get Bridge br-tun datapath_type
+
+ovs-vsctl set Bridge br0 datapath_type=netdev

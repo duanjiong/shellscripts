@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#linux 连接windows远程桌面
+#其实fedora自带的vnc就可以支持
+#http://www.jianshu.com/p/91fb0b1c6815
+
+yum install rdesktop -y
+rdesktop  -g 1440x900 10.89.151.101 -u 用户名 -p 密码

@@ -1,2 +1,8 @@
 nova
 https://docs.openstack.org/cli-reference/nova.html
+
+
+
+nova boot --flavor  m1.small --image amphora-x64-haproxy --nic port-id=45f3204e-4b81-4fa0-bd4e-aa107d9fdd4b test-sriov  --availability-zone nova:nfv1
+
+nova boot --flavor  m1.small --image amphora-x64-haproxy --nic port-id=b6005d02-e075-4d4e-97fd-d543ff33d750 test-sriov

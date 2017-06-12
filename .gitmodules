@@ -16,3 +16,15 @@
 [submodule "tools/sshrc"]
 	path = tools/sshrc
 	url = https://github.com/Russell91/sshrc
+[submodule "computer/initscripts"]
+	path = computer/initscripts
+	url = https://github.com/fedora-sysv/initscripts
+[submodule "computer/chkconfig"]
+	path = computer/chkconfig
+	url = https://github.com/fedora-sysv/chkconfig
+[submodule "computer/systemd"]
+	path = computer/systemd
+	url = https://github.com/systemd/systemd
+[submodule "computer/grub"]
+	path = computer/grub
+	url = git://git.savannah.gnu.org/grub.git

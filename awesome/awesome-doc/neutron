@@ -1,0 +1,5 @@
+neutron subnet-create sriov-net 10.20.10.0/24 --name sriov_subnet --allocation-pool start=10.20.10.3,end=10.20.10.100 --enable-dhcp
+
+neutron net-create sriov-net --provider:network_type vlan --provider:physical_network provider --provider:segmentation_id 1301
+
+neutron port-create 3781eaa3-19c5-4d33-961c-4e90a4befc53 --name sriov_port --binding:vnic_type direct --binding:host_id=nfv1 --binding:profile type=dict  pci_vendor_info=8086:10ed
