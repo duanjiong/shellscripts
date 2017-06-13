@@ -1,0 +1,5 @@
+#/usr/lib/systemd/system/systemd-sysctl.service
+
+vim  /etc/sysctl.d/hugepages.conf
+
+vm.nr_hugepages=10

@@ -1,0 +1,32 @@
+#  This file is part of systemd.
+#
+#  systemd is free software; you can redistribute it and/or modify it
+#  under the terms of the GNU Lesser General Public License as published by
+#  the Free Software Foundation; either version 2.1 of the License, or
+#  (at your option) any later version.
+
+# This unit gets pulled automatically into multi-user.target by
+# systemd-rc-local-generator if /etc/rc.d/rc.local is executable.
+[Unit]
+Description=set up ovs-dpdk
+ConditionFileIsExecutable=/usr/local/bin/ovs-dpdk.sh
+After=network-pre.target
+Before=ovsdb-server.service ovs-vswitchd.service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/local/bin/ovs-dpdk.sh
+
+
+------------------------------------------------
+#!/bin/bash
+
+python /usr/local/bin/dpdk-devbind.py  --bind=igb_uio pci号
+insmod /usr/local/bin/igb_uio.ko
+
+-------------------------------------------------
+
+vim  /etc/sysctl.d/hugepages.conf
+
+vm.nr_hugepages=10
