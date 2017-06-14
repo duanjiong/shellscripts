@@ -1,4 +1,2 @@
 sed -ri 's,(PMD_PCAP=).*,\1y,' build/.config
 
-ls qemu* | grep "1.5.3" | xargs rm   # xargs
-

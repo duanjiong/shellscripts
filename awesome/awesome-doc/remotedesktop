@@ -1,0 +1,18 @@
+protocol:
+rdp
+ssh
+vnc
+nx
+
+
+software:
+vnc2server
+teamviwer
+nomachine
+
+#################
+设置linux桌面分辨率
+http://jingyan.baidu.com/article/0f5fb099ea182b6d8234ea57.html
+http://www.linuxdiyf.com/linux/26388.html
+xrandr   #列出支持的分辨率
+xrandr -s  1366*768 #更改分辨率为支持的分辨率
