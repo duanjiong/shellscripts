@@ -1,0 +1,11 @@
+这个内核启动参数用来让某些cpu从内核的调度系统中隔离出来
+
+语法
+http://www.linuxtopia.org/online_books/linux_kernel/kernel_configuration/re46.html
+
+教程
+http://blog.csdn.net/xsckernel/article/details/8200339
+
+
+工具
+yum install stress
