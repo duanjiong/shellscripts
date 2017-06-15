@@ -1,0 +1,4 @@
+https://www.itfromallangles.com/2011/03/kvm-guests-using-virt-install-to-import-an-existing-disk-image/
+
+copy该image一份，然后使用virt-install boot
+virt-install --name demo --memory 512 --disk ./s3than-VAGRANTSLASH-trusty64_vagrant_box_image_0.0.1.img --import

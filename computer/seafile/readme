@@ -1,0 +1,8 @@
+安装文档
+https://manual-cn.seafile.com/deploy/using_sqlite.html
+
+下载
+https://www.seafile.com/download/
+
+数据迁移
+数据目前存储在/home/duanjiong/seafile中，到时候拷贝整个文件夹就可以了

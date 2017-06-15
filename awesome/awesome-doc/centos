@@ -1,0 +1,4 @@
+yum repo
+http://mirror.centos.org/
+
+https://wiki.centos.org/AdditionalResources/Repositories

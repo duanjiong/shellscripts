@@ -28,3 +28,24 @@
 [submodule "computer/grub"]
 	path = computer/grub
 	url = git://git.savannah.gnu.org/grub.git
+[submodule "computer/virt/libguestfs"]
+	path = computer/virt/libguestfs
+	url = https://github.com/libguestfs/libguestfs
+[submodule "computer/virt/virt-manager"]
+	path = computer/virt/virt-manager
+	url = https://github.com/virt-manager/virt-manager
+[submodule "computer/virt/qemu"]
+	path = computer/virt/qemu
+	url = https://github.com/qemu/qemu
+[submodule "computer/profile/perf-tools"]
+	path = computer/profile/perf-tools
+	url = https://github.com/brendangregg/perf-tools
+[submodule "computer/profile/bcc"]
+	path = computer/profile/bcc
+	url = https://github.com/brendangregg/bcc
+[submodule "computer/profile/FlameGraph"]
+	path = computer/profile/FlameGraph
+	url = https://github.com/brendangregg/FlameGraph
+[submodule "computer/compiler/cbc-ubuntu-64bit"]
+	path = computer/compiler/cbc-ubuntu-64bit
+	url = https://github.com/leungwensen/cbc-ubuntu-64bit

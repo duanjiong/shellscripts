@@ -1,0 +1,10 @@
+配置代理缓存服务器
+https://funnybutnot.wordpress.com/2011/12/09/setting-up-a-squid-caching-proxy/
+http://cn.linux.vbird.org/linux_server/0420squid.php#server_default
+
+取消注释localnet相关指令，
+
+增加
+cache_dir aufs /var/spool/squid3 81920 16 256
+cache_mem 1024 MB
+maximum_object_size 5120 MB

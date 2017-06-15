@@ -1,0 +1,11 @@
+https://developer.fedoraproject.org/tools/virt-builder/about.html
+http://libguestfs.org/
+
+
+[root@asus-fedora images]# virt-builder -l | grep fedora-25
+fedora-25                aarch64    Fedora® 25 Server (aarch64)
+fedora-25                armv7l     Fedora® 25 Server (armv7l)
+fedora-25                i686       Fedora® 25 Server (i686)
+fedora-25                ppc64      Fedora® 25 Server (ppc64)
+fedora-25                ppc64le    Fedora® 25 Server (ppc64le)
+fedora-25                x86_64     Fedora® 25 Server
