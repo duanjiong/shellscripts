@@ -1,0 +1,8 @@
+使用redis存储数据
+
+数据结构set
+tag： website
+
+server 192.168.30.121：6379
+
+#TODO 丰富tag，提供web界面
